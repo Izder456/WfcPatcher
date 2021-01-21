@@ -485,7 +485,7 @@ namespace WfcPatcher {
 			bool replaced = ReplaceInData( data, "https://", "http://", paddingByte, writeAdditionalBytePostString );
 
 			if ( CommandLineArguments.Domain != null ) {
-				replaced = ReplaceInData( data, "wiimfi.de", CommandLineArguments.Domain, paddingByte, writeAdditionalBytePostString ) || replaced;
+				replaced = ReplaceInData( data, "wiimmfi.de", CommandLineArguments.Domain, paddingByte, writeAdditionalBytePostString ) || replaced;
 			}
 
 			return replaced;

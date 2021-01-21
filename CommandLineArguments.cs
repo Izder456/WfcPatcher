@@ -19,7 +19,7 @@ namespace WfcPatcher {
 						case "-d":
 						case "--domain":
 							string domain = args[++i];
-							int maxLength = "wiimnfi.de".Length;
+							int maxLength = "wiimffi.de".Length;
 							if ( domain.Length <= maxLength ) {
 								Domain = domain;
 							} else {
